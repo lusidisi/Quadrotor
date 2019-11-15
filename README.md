@@ -2,22 +2,34 @@
 ---
 * Content
   * [OverView](#overview)
+  * [TodoList](#todolist)
   * [ProgressReport](#progressreport)
   * [ListOfModules](#listofmodules)
 
 ## OverView
 null
 
+## TodoList
+- [ ] 使用`Altium Designer`绘制扩展板
+- [ ] 编写`GY-86`驱动程序
+- [ ] 收集模块资料，包括数据手册、原理图、封装库等
+
 ## ProgressReport
 2019.11 null
   null
 
 ## ListOfModules
-- stm32f103c8t6
-- 富斯iA6B接收机
-- 9443 DJI Phantom 2 Vision 自锁桨（白色；9443自锁桨）\*5
-- F450螺旋桨保护圈（F450防撞圈，10寸）\*2
-- 好盈天行者SKEWALKER电调（20A(2-3s);原厂包装+配好TX60插）\*4
-- DJI同款2212电机自锁红色920KV（银牙反转\*2;黑牙正转\*2）
-- 四轴飞行器450机架4轴四旋翼多轴/F450V2（机架+高脚架；红黑）
-- 格式电池（XT60插；3S 2200MAH 25C）
+| modules | parameters | numbers |
+| -------:|:---------- | --------: |
+|机架| 桨距为450mm，采用碳纤维材料 (F450V2) |1|
+| 主控板 | STM32F103C8T6最小系统板(72MHZ，64KB Flash/20KB RAM)|1|
+| 加速度计、陀螺仪 | MPU6050（集成于GY-86）|1|
+|磁力计|HMC5883L（集成于GY-86）|1|
+|无线|esp8266-1|2|
+|遥控器、接收机|富斯iA6B|1+1|
+|电调|好盈天行者 20A|4|
+|电机|2212电机（自锁红色920KV）|银牙反转\*2，黑牙正转\*2|
+|螺旋桨|9443 DJI Phantom 2 Vision 自锁桨（白色）|5|
+|螺旋桨保护圈|F450防撞圈，10寸|2|
+|电池|格式电池 2200MAH 25C 锂聚合物电池|1|
+|扩展板|  |1|
